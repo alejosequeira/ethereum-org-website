@@ -29,6 +29,49 @@ export const useWalletTable = ({
       category: "security",
     },
     {
+      label: t("page-find-wallet-privacy-resistance"),
+      value: t("page-find-wallet-privacy-resistance"),
+      filterKey: "privacy_resistance",
+      category: "security",
+    },
+    {
+      label: t("page-find-wallet-device-access-protection"),
+      value: t("page-find-wallet-device-access-protection"),
+      filterKey: "device_access_protection",
+      category: "security"
+    },
+    {
+      label: t("page-find-wallet-unauthorized-dapp-blocking"),
+      value: t("page-find-wallet-unauthorized-dapp-blocking"),
+      filterKey: "unauthorized_dapp_blocking",
+      category: "security"
+    },
+    {
+      label: t("page-find-wallet-intended-action-verification"),
+      value: t("page-find-wallet-intended-action-verification"),
+      filterKey: "intended_action_verification",
+      category: "security"
+    },
+    {
+      label: t("page-find-wallet-malicious-dapp-blocking"),
+      value: t("page-find-wallet-malicious-dapp-blocking"),
+      filterKey: "malicious_dapp_blocking",
+      category: "security"
+    },
+    {
+      label: t("page-find-wallet-interaction-safeguards"),
+      value: t("page-find-wallet-interaction-safeguards"),
+      filterKey: "interaction_safeguards",
+      category: "security"
+    },
+    {
+      label: t("page-find-wallet-audit-reports-published"),
+      value: t("page-find-wallet-audit-reports-published"),
+      filterKey: "audit_reports_published",
+      category: "security"
+    },    
+
+    {
       label: t("page-find-wallet-hardware-wallet-support"),
       value: t("page-find-wallet-hardware-wallet-support"),
       filterKey: "hardware_support",

@@ -394,8 +394,8 @@ export type ToCNodeEntry = {
 export type TocNodeType =
   | ToCNodeEntry
   | {
-      items: TocNodeType[]
-    }
+    items: TocNodeType[]
+  }
 
 export type ToCItem = {
   title: string
@@ -503,12 +503,12 @@ export type TimestampedData<T> = {
 
 export type MetricDataValue<Data, Value> =
   | {
-      error: string
-    }
+    error: string
+  }
   | {
-      data: Data
-      value: Value
-    }
+    data: Data
+    value: Value
+  }
 
 export type EtherscanNodeResponse = {
   result: {
@@ -597,6 +597,15 @@ export interface WalletData {
   chromium: boolean
   hardware: boolean
   open_source: boolean
+  
+  privacy_resistance: boolean
+  device_access_protection: boolean,
+  unauthorized_dapp_blocking: boolean,
+  intended_action_verification: boolean,
+  malicious_dapp_blocking: boolean,
+  interaction_safeguards: boolean,
+  audit_reports_published: boolean
+
   repo_url: string
   non_custodial: boolean
   security_audit: string[]
@@ -639,12 +648,12 @@ export type FilterOption = {
     filterKey: string | undefined
     showOptions: boolean | undefined
     options:
-      | Array<{
-          name: string
-          filterKey?: string
-          inputType: "checkbox"
-        }>
-      | []
+    | Array<{
+      name: string
+      filterKey?: string
+      inputType: "checkbox"
+    }>
+    | []
   }>
 }
 
@@ -698,19 +707,19 @@ type NetworkUpgradeDetails = {
   epochNumber?: number
   slotNumber?: number
 } & (
-  | {
+    | {
       isPending: true
       dateTimeAsString?: string
       ethPriceInUSD?: never
       waybackLink?: never
     }
-  | {
+    | {
       ethPriceInUSD: number
       waybackLink: string
       dateTimeAsString: string
       isPending?: never
     }
-)
+  )
 
 export type NetworkUpgradeData = Record<string, NetworkUpgradeDetails>
 

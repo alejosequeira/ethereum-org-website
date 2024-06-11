@@ -66,6 +66,43 @@ const walletFilterData: { [key: string]: WalletFilterData } = {
     description: "page-find-wallet-non-custodial-desc",
     filterKey: "non_custodial",
   },
+  privacy_resistance:{
+    title: "page-find-wallet-privacy-resistance",
+    description: "page-find-wallet-privacy-resistance-desc",
+    filterKey: "privacy_resistance",
+  },
+  
+
+  device_access_protection: {
+    title: "page-find-wallet-device-access-protection",
+    description: "page-find-wallet-device-access-protection-desc",
+    filterKey: "device_access_protection"
+  },
+  unauthorized_dapp_blocking: {
+    title: "page-find-wallet-unauthorized-dapp-blocking",
+    description: "page-find-wallet-unauthorized-dapp-blocking-desc",
+    filterKey: "unauthorized_dapp_blocking"
+  },
+  intended_action_verification: {
+    title: "page-find-wallet-intended-action-verification",
+    description: "page-find-wallet-intended-action-verification-desc",
+    filterKey: "intended_action_verification"
+  },
+  malicious_dapp_blocking: {
+    title: "page-find-wallet-malicious-dapp-blocking",
+    description: "page-find-wallet-malicious-dapp-blocking-desc",
+    filterKey: "malicious_dapp_blocking"
+  },
+  interaction_safeguards: {
+    title: "page-find-wallet-interaction-safeguards",
+    description: "page-find-wallet-interaction-safeguards-desc",
+    filterKey: "interaction_safeguards"
+  },
+  audit_reports_published: {
+    title: "page-find-wallet-audit-reports-published",
+    description: "page-find-wallet-audit-reports-published-desc",
+    filterKey: "audit_reports_published"
+  }, 
   hardware_support: {
     title: "page-find-wallet-hardware-wallet-support",
     description: "page-find-wallet-hardware-wallet-support-desc",

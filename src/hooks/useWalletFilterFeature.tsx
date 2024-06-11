@@ -25,6 +25,14 @@ import {
   NFTSupportIcon,
   NonCustodialIcon,
   OpenSourceWalletIcon,
+  PrivacyResistanceIcon,
+  DeviceAccessProtectionIcon,
+  UnauthorizedDappBlockingIcon,
+  IntendedActionVerificationIcon,
+  MaliciousDappBlockingIcon,
+  InteractionSafeguardsIcon,
+  AuditReportsPublishedIcon,
+
   RPCImportingIcon,
   SocialRecoverIcon,
   StakingIcon,
@@ -223,6 +231,62 @@ export const useWalletFilterFeature = ({
           showOptions: undefined,
           options: [],
         },
+        {
+          title: t(walletFilterData.privacy_resistance.title),
+          icon: PrivacyResistanceIcon,
+          description: t(walletFilterData.privacy_resistance.description),
+          filterKey: walletFilterData.privacy_resistance.filterKey,
+          showOptions: undefined,
+          options: [],
+        },
+        {
+          title: t(walletFilterData.device_access_protection.title),
+          icon: DeviceAccessProtectionIcon,
+          description: t(walletFilterData.device_access_protection.description),
+          filterKey: walletFilterData.device_access_protection.filterKey,
+          showOptions: undefined,
+          options: []
+        },
+        {
+          title: t(walletFilterData.unauthorized_dapp_blocking.title),
+          icon: UnauthorizedDappBlockingIcon,
+          description: t(walletFilterData.unauthorized_dapp_blocking.description),
+          filterKey: walletFilterData.unauthorized_dapp_blocking.filterKey,
+          showOptions: undefined,
+          options: []
+        },
+        {
+          title: t(walletFilterData.intended_action_verification.title),
+          icon: IntendedActionVerificationIcon,
+          description: t(walletFilterData.intended_action_verification.description),
+          filterKey: walletFilterData.intended_action_verification.filterKey,
+          showOptions: undefined,
+          options: []
+        },
+        {
+          title: t(walletFilterData.malicious_dapp_blocking.title),
+          icon: MaliciousDappBlockingIcon,
+          description: t(walletFilterData.malicious_dapp_blocking.description),
+          filterKey: walletFilterData.malicious_dapp_blocking.filterKey,
+          showOptions: undefined,
+          options: []
+        },
+        {
+          title: t(walletFilterData.interaction_safeguards.title),
+          icon: InteractionSafeguardsIcon,
+          description: t(walletFilterData.interaction_safeguards.description),
+          filterKey: walletFilterData.interaction_safeguards.filterKey,
+          showOptions: undefined,
+          options: []
+        },
+        {
+          title: t(walletFilterData.audit_reports_published.title),
+          icon: AuditReportsPublishedIcon,
+          description: t(walletFilterData.audit_reports_published.description),
+          filterKey: walletFilterData.audit_reports_published.filterKey,
+          showOptions: undefined,
+          options: []
+        },        
       ],
     },
     {

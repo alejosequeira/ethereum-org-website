@@ -9,11 +9,33 @@
   "page-find-wallet-title": "Choose your wallet",
   "page-find-wallet-try-removing": "Try removing a feature or two",
   "page-stake-eth": "Stake ETH",
+
   "page-find-wallet-open-source": "Open source",
-  "page-find-wallet-open-source-desc": "Open-source software lets anyone audit the integrity and security of the application",
+  "page-find-wallet-open-source-desc": "a Open-source software lets anyone audit the integrity and security of the application",
   "page-find-wallet-self-custody": "Self custody",
   "page-find-wallet-non-custodial": "Personal ownership",
   "page-find-wallet-non-custodial-desc": "Wallets that do not control your private keys",
+  "page-find-wallet-privacy-resistance": "Privacy and Censorship-resistance",
+  "page-find-wallet-privacy-resistance-desc": "Wallets Privacy and Censorship-resistance",
+  
+  "page-find-wallet-device-access-protection": "Device Access Protection",
+  "page-find-wallet-device-access-protection-desc": "Prevents an adversary with device access from performing critical actions",
+  
+  "page-find-wallet-unauthorized-dapp-blocking": "Unauthorized DApp Blocking",
+  "page-find-wallet-unauthorized-dapp-blocking-desc": "Prevents DApps from performing unauthorized actions",
+  
+  "page-find-wallet-intended-action-verification": "Intended Action Verification",
+  "page-find-wallet-intended-action-verification-desc": "Enables users to verify their intentions before approving transactions or signatures",
+  
+  "page-find-wallet-malicious-dapp-blocking": "Malicious DApp Blocking",
+  "page-find-wallet-malicious-dapp-blocking-desc": "Protects and alerts users from potential threats arising from interactions with DApps",
+  
+  "page-find-wallet-interaction-safeguards": "Interaction Safeguards",
+  "page-find-wallet-interaction-safeguards-desc": "Minimizes risk from interacting with unknown addresses or incorrectly entered blockchain addresses",
+  
+  "page-find-wallet-audit-reports-published": "Audit Reports Published",
+  "page-find-wallet-audit-reports-published-desc": "The wallet has recent, relevant, and public security reports",
+
   "page-find-wallet-hardware-wallet-support": "Hardware wallet support",
   "page-find-wallet-hardware-wallet-support-desc": "Wallets that can connect to hardware wallet for better security",
   "page-find-wallet-rpc-importing": "RPC importing",

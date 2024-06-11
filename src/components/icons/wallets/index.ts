@@ -16,6 +16,14 @@ import { MultisigIcon } from "./MultisigIcon"
 import { NFTSupportIcon } from "./NFTSupportIcon"
 import { NonCustodialIcon } from "./NonCustodialIcon"
 import { OpenSourceWalletIcon } from "./OpenSourceWalletIcon"
+import { PrivacyResistanceIcon } from "./PrivacyResistance"
+import { DeviceAccessProtectionIcon } from "./DeviceAccessProtectionIcon"
+import { UnauthorizedDappBlockingIcon } from "./UnauthorizedDappBlockingIcon"
+import { IntendedActionVerificationIcon } from "./IntendedActionVerificationIcon"
+import { MaliciousDappBlockingIcon } from "./MaliciousDappBlockingIcon"
+import { InteractionSafeguardsIcon } from "./InteractionSafeguardsIcon"
+import { AuditReportsPublishedIcon } from "./AuditReportsPublishedIcon"
+
 import { RPCImportingIcon } from "./RPCImportingIcon"
 import { SocialRecoverIcon } from "./SocialRecoverIcon"
 import { StakingIcon } from "./StakingIcon"
@@ -41,6 +49,14 @@ export {
   NFTSupportIcon,
   NonCustodialIcon,
   OpenSourceWalletIcon,
+  PrivacyResistanceIcon,
+  DeviceAccessProtectionIcon,
+  UnauthorizedDappBlockingIcon,
+  IntendedActionVerificationIcon,
+  MaliciousDappBlockingIcon,
+  InteractionSafeguardsIcon,
+  AuditReportsPublishedIcon,
+
   RPCImportingIcon,
   SocialRecoverIcon,
   StakingIcon,
