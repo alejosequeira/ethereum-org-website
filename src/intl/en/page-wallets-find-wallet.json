@@ -21,7 +21,7 @@
   "page-find-wallet-device-access-protection": "Device Access Protection",
   "page-find-wallet-device-access-protection-desc": "Prevents an adversary with device access from performing critical actions",
   
-  "page-find-wallet-unauthorized-dapp-blocking": "Unauthorized DApp Blocking",
+  "page-find-wallet-unauthorized-dapp-blocking": "DApp Access Control",
   "page-find-wallet-unauthorized-dapp-blocking-desc": "Prevents DApps from performing unauthorized actions",
   
   "page-find-wallet-intended-action-verification": "Intended Action Verification",
